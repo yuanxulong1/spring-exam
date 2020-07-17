@@ -13,7 +13,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-//@EnableWebMvc
+@EnableWebMvc
 @ComponentScan(basePackages = {"p.yxl"})
 //有没有implements WebMvcConfigurer似乎都不要紧，都可以使用
 public class AppConfig implements WebMvcConfigurer {
