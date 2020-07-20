@@ -4,7 +4,7 @@
 
   - 实现方式：
 
-    - 通过xml文件来配置：
+    - 通过xml文件来配置，注意context是XmlWebApplicationContext：
 
       ```java
       
@@ -22,7 +22,7 @@
       }
       ```
 
-    - 通过java类配置(AppConfig类是配置类)：
+    - 通过java类配置(AppConfig类是配置类)，注意context类是AnnotationConfigWebApplicationContext：
 
       ```java
       public class MyWebApplicationInitializer implements WebApplicationInitializer {

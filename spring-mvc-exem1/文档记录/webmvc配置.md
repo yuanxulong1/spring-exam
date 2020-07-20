@@ -21,10 +21,8 @@
               https://www.springframework.org/schema/beans/spring-beans.xsd
               http://www.springframework.org/schema/mvc
               https://www.springframework.org/schema/mvc/spring-mvc.xsd">
-      
           <mvc:annotation-driven/>
-      
       </beans>
       ```
-
+      
       
